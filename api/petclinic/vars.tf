@@ -32,9 +32,7 @@ variable "DUMMY_SSH_PUB_KEY" {
 }
 
 variable "AWS_ACCESS_KEY" {
-  default = "{{ env `AWS_ACCESS_KEY` }}"
 }
 
 variable "AWS_SECRET_KEY" {
-  default = "{{ env `AWS_SECRET_KEY` }}"
 }
